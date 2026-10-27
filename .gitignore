@@ -1,0 +1,13 @@
+# Environments & Secrets
+.env
+.env.local
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# n8n temporary files
+*.tmp
+raw_notes_buffer.json
